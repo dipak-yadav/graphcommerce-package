@@ -1,0 +1,11 @@
+fragment Product_DatalayerItem on ProductInterface {
+  uid
+  name
+  sku
+  price_range {
+    minimum_price {
+      ...ProductListPrice
+    }
+  }
+  ...ProductPageBreadcrumb
+}

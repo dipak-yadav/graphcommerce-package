@@ -1,0 +1,261 @@
+{
+  "possibleTypes": {
+    "AggregationOptionInterface": [
+      "AggregationOption"
+    ],
+    "AttributeSelectedOptionInterface": [
+      "AttributeSelectedOption"
+    ],
+    "AttributeValueInterface": [
+      "AttributeSelectedOptions",
+      "AttributeValue"
+    ],
+    "CartAddressInterface": [
+      "BillingCartAddress",
+      "ShippingCartAddress"
+    ],
+    "CartItemInterface": [
+      "BundleCartItem",
+      "ConfigurableCartItem",
+      "DownloadableCartItem",
+      "SimpleCartItem",
+      "VirtualCartItem"
+    ],
+    "CategoryInterface": [
+      "CategoryTree"
+    ],
+    "ConditionAndconditionsUnion": [
+      "ConditionNumber",
+      "ConditionOr",
+      "ConditionText"
+    ],
+    "ConditionOrconditionsUnion": [
+      "ConditionNumber",
+      "ConditionText"
+    ],
+    "CreditMemoItemInterface": [
+      "BundleCreditMemoItem",
+      "CreditMemoItem",
+      "DownloadableCreditMemoItem"
+    ],
+    "CustomAttributeMetadataInterface": [
+      "AttributeMetadata",
+      "CatalogAttributeMetadata",
+      "CustomerAttributeMetadata"
+    ],
+    "CustomAttributeOptionInterface": [
+      "AttributeOptionMetadata"
+    ],
+    "CustomizableOptionInterface": [
+      "CustomizableAreaOption",
+      "CustomizableCheckboxOption",
+      "CustomizableDateOption",
+      "CustomizableDropDownOption",
+      "CustomizableFieldOption",
+      "CustomizableFileOption",
+      "CustomizableMultipleOption",
+      "CustomizableRadioOption"
+    ],
+    "CustomizableProductInterface": [
+      "BundleProduct",
+      "ConfigurableProduct",
+      "DownloadableProduct",
+      "SimpleProduct",
+      "VirtualProduct"
+    ],
+    "DynamicRowTarget": [
+      "RowBlogContent",
+      "RowButtonLinkList",
+      "RowColumnOne",
+      "RowColumnThree",
+      "RowColumnTwo",
+      "RowContentLinks",
+      "RowHeroBanner",
+      "RowLinks",
+      "RowProduct",
+      "RowQuote",
+      "RowServiceOptions",
+      "RowSpecialBanner"
+    ],
+    "DynamicRowconditionsUnion": [
+      "ConditionAnd",
+      "ConditionNumber",
+      "ConditionText"
+    ],
+    "Entity": [
+      "Asset",
+      "ConditionAnd",
+      "ConditionNumber",
+      "ConditionOr",
+      "ConditionText",
+      "DynamicRow",
+      "Footer",
+      "Page",
+      "PageLink",
+      "RowBlogContent",
+      "RowButtonLinkList",
+      "RowCategory",
+      "RowColumnOne",
+      "RowColumnThree",
+      "RowColumnTwo",
+      "RowContentLinks",
+      "RowHeroBanner",
+      "RowLinks",
+      "RowProduct",
+      "RowQuote",
+      "RowServiceOptions",
+      "RowSpecialBanner",
+      "ScheduledOperation",
+      "ScheduledRelease",
+      "User",
+      "Usps"
+    ],
+    "ErrorInterface": [
+      "InternalError",
+      "NoSuchEntityUidError"
+    ],
+    "InvoiceItemInterface": [
+      "BundleInvoiceItem",
+      "DownloadableInvoiceItem",
+      "InvoiceItem"
+    ],
+    "LayerFilterItemInterface": [
+      "LayerFilterItem",
+      "SwatchLayerFilterItem"
+    ],
+    "MediaGalleryInterface": [
+      "ProductImage",
+      "ProductVideo"
+    ],
+    "Node": [
+      "Asset",
+      "DynamicRow",
+      "Footer",
+      "Page",
+      "PageLink",
+      "RowBlogContent",
+      "RowButtonLinkList",
+      "RowCategory",
+      "RowColumnOne",
+      "RowColumnThree",
+      "RowColumnTwo",
+      "RowContentLinks",
+      "RowHeroBanner",
+      "RowLinks",
+      "RowProduct",
+      "RowQuote",
+      "RowServiceOptions",
+      "RowSpecialBanner",
+      "ScheduledOperation",
+      "ScheduledRelease",
+      "User",
+      "Usps"
+    ],
+    "OrderItemInterface": [
+      "BundleOrderItem",
+      "DownloadableOrderItem",
+      "OrderItem"
+    ],
+    "PageContent": [
+      "RowBlogContent",
+      "RowButtonLinkList",
+      "RowCategory",
+      "RowColumnOne",
+      "RowColumnThree",
+      "RowColumnTwo",
+      "RowContentLinks",
+      "RowHeroBanner",
+      "RowLinks",
+      "RowProduct",
+      "RowQuote",
+      "RowServiceOptions",
+      "RowSpecialBanner"
+    ],
+    "PaymentConfigItem": [
+      "ApplePayConfig",
+      "GooglePayConfig",
+      "HostedFieldsConfig",
+      "PaymentCommonConfig",
+      "SmartButtonsConfig"
+    ],
+    "PhysicalProductInterface": [
+      "BundleProduct",
+      "ConfigurableProduct",
+      "GroupedProduct",
+      "SimpleProduct"
+    ],
+    "ProductInterface": [
+      "BundleProduct",
+      "ConfigurableProduct",
+      "DownloadableProduct",
+      "GroupedProduct",
+      "SimpleProduct",
+      "VirtualProduct"
+    ],
+    "ProductLinksInterface": [
+      "ProductLinks"
+    ],
+    "RoutableInterface": [
+      "BundleProduct",
+      "CategoryTree",
+      "CmsPage",
+      "ConfigurableProduct",
+      "DownloadableProduct",
+      "GroupedProduct",
+      "RoutableUrl",
+      "SimpleProduct",
+      "VirtualProduct"
+    ],
+    "ScheduledOperationAffectedDocument": [
+      "Asset",
+      "DynamicRow",
+      "Footer",
+      "Page",
+      "PageLink",
+      "RowBlogContent",
+      "RowButtonLinkList",
+      "RowCategory",
+      "RowColumnOne",
+      "RowColumnThree",
+      "RowColumnTwo",
+      "RowContentLinks",
+      "RowHeroBanner",
+      "RowLinks",
+      "RowProduct",
+      "RowQuote",
+      "RowServiceOptions",
+      "RowSpecialBanner",
+      "Usps"
+    ],
+    "ShipmentItemInterface": [
+      "BundleShipmentItem",
+      "ShipmentItem"
+    ],
+    "SwatchDataInterface": [
+      "ColorSwatchData",
+      "ImageSwatchData",
+      "TextSwatchData"
+    ],
+    "SwatchLayerFilterItemInterface": [
+      "SwatchLayerFilterItem"
+    ],
+    "Union_row_dynamicRow": [
+      "RowColumnOne",
+      "RowLinks",
+      "RowQuote"
+    ],
+    "Union_rows_dynamicRows": [
+      "RowColumnOne",
+      "RowLinks",
+      "RowQuote"
+    ],
+    "WishlistItemInterface": [
+      "BundleWishlistItem",
+      "ConfigurableWishlistItem",
+      "DownloadableWishlistItem",
+      "GroupedProductWishlistItem",
+      "SimpleWishlistItem",
+      "VirtualWishlistItem"
+    ]
+  }
+}

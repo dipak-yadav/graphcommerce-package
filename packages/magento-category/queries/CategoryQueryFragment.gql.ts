@@ -1,0 +1,4 @@
+/* eslint-disable */
+import * as Types from '@graphcommerce/graphql-mesh/.mesh';
+
+export type CategoryQueryFragment = { categories?: { items?: Array<{ uid: string, default_sort_by?: string | null, available_sort_by?: Array<string | null> | null, name?: string | null, url_path?: string | null, include_in_menu?: number | null, description?: string | null, display_mode?: string | null, meta_title?: string | null, meta_description?: string | null, image?: string | null, level?: number | null, is_anchor?: number | null, breadcrumbs?: Array<{ category_uid: string, category_name?: string | null, category_url_path?: string | null, category_level?: number | null } | null> | null, children?: Array<{ uid: string, url_path?: string | null, name?: string | null, include_in_menu?: number | null, image?: string | null, level?: number | null, is_anchor?: number | null } | null> | null } | null> | null } | null };

@@ -1,0 +1,17 @@
+fragment DynamicRow on DynamicRow {
+  placement
+  target {
+    ... on Node {
+      id
+    }
+  }
+  rows {
+    __typename
+    ... on Node {
+      id
+    }
+    ...RowColumnOne
+    ...RowQuote
+    ...RowLinks
+  }
+}

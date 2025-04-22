@@ -1,0 +1,39 @@
+{
+  "name": "@graphcommerce/graphql",
+  "homepage": "https://www.graphcommerce.org/",
+  "repository": "github:graphcommerce-org/graphcommerce",
+  "version": "9.0.4",
+  "sideEffects": false,
+  "main": "index.ts",
+  "prettier": "@graphcommerce/prettier-config-pwa",
+  "eslintConfig": {
+    "extends": "@graphcommerce/eslint-config-pwa",
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    }
+  },
+  "dependencies": {
+    "@apollo/client": "~3.12.3",
+    "@graphql-codegen/add": "5.0.3",
+    "@graphql-codegen/fragment-matcher": "5.0.2",
+    "@graphql-codegen/introspection": "4.0.3",
+    "@graphql-codegen/schema-ast": "4.1.0",
+    "@graphql-codegen/typed-document-node": "5.0.12",
+    "@graphql-codegen/typescript": "4.1.2",
+    "@graphql-codegen/typescript-apollo-client-helpers": "3.0.0",
+    "@graphql-codegen/typescript-document-nodes": "4.0.12",
+    "@graphql-codegen/typescript-operations": "4.4.0",
+    "apollo3-cache-persist": "^0.15.0",
+    "graphql": "^16.10.0"
+  },
+  "peerDependencies": {
+    "@graphcommerce/eslint-config-pwa": "^9.0.4",
+    "@graphcommerce/graphql-codegen-near-operation-file": "9.0.4",
+    "@graphcommerce/graphql-codegen-relay-optimizer-plugin": "9.0.4",
+    "@graphcommerce/prettier-config-pwa": "^9.0.4",
+    "@graphcommerce/typescript-config-pwa": "^9.0.4",
+    "@graphql-mesh/plugin-http-details-extensions": "*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

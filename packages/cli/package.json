@@ -1,0 +1,57 @@
+{
+  "name": "@graphcommerce/cli",
+  "homepage": "https://www.graphcommerce.org/",
+  "repository": "github:graphcommerce-org/graphcommerce",
+  "version": "9.0.4",
+  "scripts": {
+    "dev": "pkgroll --watch",
+    "build": "pkgroll",
+    "prepack": "pkgroll"
+  },
+  "type": "module",
+  "bin": {
+    "gc-gql-codegen": "dist/bin/codegen.js",
+    "gc-mesh": "dist/bin/mesh.js",
+    "graphcommerce": "dist/bin/graphcommerce.js",
+    "is-monorepo": "dist/bin/is-monorepo.js"
+  },
+  "dependencies": {
+    "@graphql-codegen/cli": "5.0.3",
+    "cosmiconfig": "^8.3.6",
+    "detect-package-manager": "^3.0.2",
+    "dotenv": "16.4.7",
+    "graphql": "^16.10.0",
+    "graphql-codegen-typescript-validation-schema": "^0.17.0",
+    "graphql-tag": "^2.12.6",
+    "rimraf": "^5.0.10",
+    "tslib": "^2.8.1",
+    "tsx": "^4.19.2",
+    "yaml": "2.6.1"
+  },
+  "peerDependencies": {
+    "@graphcommerce/eslint-config-pwa": "^9.0.4",
+    "@graphcommerce/graphql-mesh": "^9.0.4",
+    "@graphcommerce/hygraph-cli": "^9.0.4",
+    "@graphcommerce/next-config": "^9.0.4",
+    "@graphcommerce/prettier-config-pwa": "^9.0.4",
+    "@graphcommerce/typescript-config-pwa": "^9.0.4",
+    "@graphql-mesh/cli": "*",
+    "@graphql-mesh/types": "*",
+    "@graphql-mesh/utils": "*",
+    "react": "^18.2.0"
+  },
+  "sideEffects": false,
+  "prettier": "@graphcommerce/prettier-config-pwa",
+  "eslint": {
+    "extends": "@graphcommerce/eslint-config-pwa"
+  },
+  "eslintConfig": {
+    "extends": "@graphcommerce/eslint-config-pwa",
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    }
+  },
+  "devDependencies": {
+    "pkgroll": "^2.5.1"
+  }
+}

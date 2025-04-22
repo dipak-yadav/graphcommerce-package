@@ -1,0 +1,4 @@
+/* eslint-disable */
+import * as Types from '@graphcommerce/graphql-mesh/.mesh';
+
+export type OrderStateLabelFragment = { status: string, items?: Array<{ quantity_ordered?: number | null, quantity_shipped?: number | null, quantity_canceled?: number | null, quantity_invoiced?: number | null, quantity_refunded?: number | null, quantity_returned?: number | null } | { quantity_ordered?: number | null, quantity_shipped?: number | null, quantity_canceled?: number | null, quantity_invoiced?: number | null, quantity_refunded?: number | null, quantity_returned?: number | null } | { quantity_ordered?: number | null, quantity_shipped?: number | null, quantity_canceled?: number | null, quantity_invoiced?: number | null, quantity_refunded?: number | null, quantity_returned?: number | null } | null> | null };
