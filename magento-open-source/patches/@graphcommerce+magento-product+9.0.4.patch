@@ -1,0 +1,13 @@
+diff --git a/node_modules/@graphcommerce/magento-product/components/ProductScroller/ProductScroller.tsx b/node_modules/@graphcommerce/magento-product/components/ProductScroller/ProductScroller.tsx
+index ef066ad..e712853 100644
+--- a/node_modules/@graphcommerce/magento-product/components/ProductScroller/ProductScroller.tsx
++++ b/node_modules/@graphcommerce/magento-product/components/ProductScroller/ProductScroller.tsx
+@@ -9,7 +9,7 @@ import type { ProductListItemRenderer, ProductListItemType } from '../ProductLis
+ 
+ export type ProductScrollerProps = {
+   title?: React.ReactNode
+-  items: ProductListItemType[]
++  items: any
+   productListRenderer: ProductListItemRenderer
+   imageOnly?: ProductListItemProps['imageOnly']
+   sx?: SxProps<Theme>

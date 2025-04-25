@@ -1,0 +1,13 @@
+diff --git a/node_modules/@graphcommerce/magento-wishlist/hooks/useRemoveProductsFromWishlist/useRemoveProductsFromWishlist.tsx b/node_modules/@graphcommerce/magento-wishlist/hooks/useRemoveProductsFromWishlist/useRemoveProductsFromWishlist.tsx
+index d62cdaf..5c24d61 100644
+--- a/node_modules/@graphcommerce/magento-wishlist/hooks/useRemoveProductsFromWishlist/useRemoveProductsFromWishlist.tsx
++++ b/node_modules/@graphcommerce/magento-wishlist/hooks/useRemoveProductsFromWishlist/useRemoveProductsFromWishlist.tsx
+@@ -39,7 +39,7 @@ export function useRemoveProductsFromWishlist() {
+               __typename: 'Wishlist',
+               id: 'guest-wishlist',
+               items_count: items?.length,
+-              items_v2: { __typename: 'WishlistItems', items },
++              items_v2: { __typename: 'WishlistItems', items as any },
+             },
+           ],
+         },
