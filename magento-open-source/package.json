@@ -40,6 +40,7 @@
     "@graphcommerce/graphql-codegen-near-operation-file": "9.0.4",
     "@graphcommerce/graphql-codegen-relay-optimizer-plugin": "9.0.4",
     "@graphcommerce/graphql-mesh": "9.0.4",
+    "@graphcommerce/hygraph-cli": "^9.0.4",
     "@graphcommerce/image": "9.0.4",
     "@graphcommerce/lingui-next": "9.0.4",
     "@graphcommerce/magento-cart": "9.0.4",
